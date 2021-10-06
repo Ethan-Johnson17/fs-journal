@@ -56,17 +56,17 @@ font type
 **9.** What three tags can be used to make lists (not list items)?
 <!-- enter you answer in the space below -->
 ```
-<ol> <ul>
+<ol> <ul> <dl>
 ```
 
 **10.** Define the display `:flex property:`
 <!-- enter you answer in the space below -->
 ```
-
+Flex is a form of display that allows elements to be lined up in different ways, whether they be stacked in rows or columns. It makes them "flexible"
 ```
 
 **11.** What `CSS` properties affect the size of a box model?
 <!-- enter you answer in the space below -->
 ```
-
+Margin, padding, border
 ```
