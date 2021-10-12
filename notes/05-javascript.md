@@ -1,5 +1,5 @@
 # JavaScript
-JS is linked with <script src="app.js"></script>
+JS is linked with <script src="app.js"></script> and should be at the bottom of the <body>
 
 Console.log to test whether the JS connected properly
 
@@ -33,3 +33,28 @@ functions don't run until it's called or invoked.
 
 Parameter is the placeholder, argument is the value when the function ias actually called.
 The parameters are what the "monster" knows the value as.
+
+bang.sugar ? 'has sugar' : 'is sugar free' is the same as if/then statement. Turnary
+^ this is a boolean value. 
+
+array.join(' ') turns array into a string and seperates with what is put in the ' '
+
+const cat = cats[i]; <-this is accessing the first value in the array cats[]
+
+forEach loop will go through every element regardless. For loops will have a break point.
+cats.forEach( cat => {
+    console.log(cat)
+})
+
+let found = ' '
+for (let i=0; i< cats.length; i++) {
+    const cat = cats[i]
+    if (cat.name === 'patches') {
+        found = cat
+        break
+    }
+}
+⬆ is the same as  ⬇
+let found = cats.find(cat => cat.name === 'patches') 
+
+'?' is used to drill safely into a complex object
