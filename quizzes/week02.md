@@ -8,7 +8,7 @@ var, let, const
 **2.** What is the definition of a function?
 <!-- enter you answer in the space below -->
 ```
-
+A function contains a name, parameters, and statements. It is basically a "program" that you build and run by inovking it. It will then do a specificed action.
 ```
 **3.** What are the `SOLID` principles?
 <!-- enter you answer in the space below -->

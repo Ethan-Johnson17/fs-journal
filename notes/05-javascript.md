@@ -57,4 +57,10 @@ for (let i=0; i< cats.length; i++) {
 ⬆ is the same as  ⬇
 let found = cats.find(cat => cat.name === 'patches') 
 
-'?' is used to drill safely into a complex object
+'?' is used to drill safely into a complex object to find a class that may not exist on all elements being searched
+
+let foundTopping = toppings.find
+
+Arrays use find and other methods to access elements. Dictionaries can access elements with name/key
+let foundTopping = toppingsDict[choice] <- dict method of
+let foundTopping = toppings.find(topping => topping.name ==choice) <- array method
