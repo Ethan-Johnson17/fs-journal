@@ -64,3 +64,5 @@ let foundTopping = toppings.find
 Arrays use find and other methods to access elements. Dictionaries can access elements with name/key
 let foundTopping = toppingsDict[choice] <- dict method of
 let foundTopping = toppings.find(topping => topping.name ==choice) <- array method
+
+Establish the facts first, then write the function. Break it down into the most simple terms.
