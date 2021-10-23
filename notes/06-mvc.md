@@ -25,3 +25,5 @@ singleton pattern
 ctrl+. to shortcut create a method.
 
 Capitalize getters and classes
+
+Controller won't load if Service has an issue because the controller is pulling in the service instance
