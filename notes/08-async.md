@@ -31,3 +31,6 @@ single layer part of the or should be first, then put the deeper layer. On the d
 
 .find (s => s.id == id)
 find spell WHERE spell id is equal to id
+
+.get('players?name=' + playerName)
+find the player names that match playerName
