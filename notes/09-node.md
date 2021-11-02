@@ -22,3 +22,5 @@ Don't break the login, it's part of the checkpoint!
 Account references the person logged in. Profile references a user on the system, as it shows less information.
 
 Mongoose is an ORM, which essentially translates information to and from database
+
+params are what's passed in through the url and the body is what's passed in the delete and put methods
