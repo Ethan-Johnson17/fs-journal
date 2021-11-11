@@ -14,8 +14,14 @@ Use onMounted to 'get' on load of page
 v-for replaces the forEach
 v-for="car in Cars" this can access the array 
 
-REVIEW slots, props, router
+REVIEW props, route, ref vs. state, JS whiteboard type challenges
 
 cannot use elvis operator in bound attribute
 
 param is passed to router link in the router file
+
+Element contains slots, slot is labeled with a name.
+
+Element gets injected into the project with those slots. You can then insert a template into the slots of that instance of the element (on the project)
+
+If you aren't changing the html (like with a modal), use props instead of slots. If the html within the template is being changed (different layout on modal), use slots
