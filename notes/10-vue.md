@@ -25,3 +25,19 @@ Element contains slots, slot is labeled with a name.
 Element gets injected into the project with those slots. You can then insert a template into the slots of that instance of the element (on the project)
 
 If you aren't changing the html (like with a modal), use props instead of slots. If the html within the template is being changed (different layout on modal), use slots
+
+On checkpoint-- ?query=
+
+@keypress runs at every keypress
+
+overfill your backlog so there is always stuff to work on.
+Create a high fidelity wireframe
+scrum everything out, set daily goals
+Don't hesitate to use TAs and instructors on trello and planning
+theme forest for logo animation
+
+length of array = number of likes
+
+vue flix has pagination and search
+gregslist has edit account
+art terminal has search
