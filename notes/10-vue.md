@@ -41,3 +41,5 @@ length of array = number of likes
 vue flix has pagination and search
 gregslist has edit account
 art terminal has search
+
+offcanvas has props, its the child. It's inserted into the page, where it's given a title through that props. 
