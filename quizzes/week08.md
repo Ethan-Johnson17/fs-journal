@@ -13,7 +13,7 @@ It needs to be at the main level, outside of both client and server so it can be
 **3.** What command will ensure that your Vue code is compiled properly for deployment?
 <!-- enter you answer in the space below -->
 ```
-
+npm i
 ```
 **4.** _______ are used to provide your application with specific data based on it's environment. For example: connections strings, private keys or port. Fill in the blank.
 <!-- enter you answer in the space below -->
