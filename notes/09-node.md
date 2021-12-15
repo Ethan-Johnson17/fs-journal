@@ -1,4 +1,4 @@
-# MVC
+# Node
 npm run start, debug and run window- either way will start the server but the debug window is best
 
 Connect atlas Db can be commented out if you are not connecting to a database

@@ -1,4 +1,4 @@
-# MVC
+# Vue
 in order to change a ref value, you have to use variablename.value
 v-for "t in targets" t is the single targets <- this is how to itterate
 v-model is used to two way bind. It can be put on an inpuot to bind a query. Two way data binding changes it on the page as well.
