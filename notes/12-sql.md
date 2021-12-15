@@ -7,3 +7,9 @@ You can create a new table in dbSetup.sql and run it. Ensure that your db is act
 End of a sql statement needs a ; --> sql @" ... ;";
 Dapper does not like constructors. Models will no longer include them.
 We now need a transient for the repository
+
+SELECT
+    car.*,
+    account.*
+    FROM cars car
+    JOIN accounts account ON car.creatorId = account.id
