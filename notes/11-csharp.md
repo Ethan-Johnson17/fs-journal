@@ -20,3 +20,10 @@ When doing a SELECT, FROM, JOIN, WHERE --> don't feel like you have to go top to
 JOIN is where you inout what you want to get back. Find stations (s) ON ...
 SELECT s (^From above)
 AS renames the column, this will prevent one id from overriding another.
+
+
+
+
+Checkpoint
+Create a different server call for the home page filters
+Warm up with leetcode, edabit, or similar
