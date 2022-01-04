@@ -27,3 +27,13 @@ AS renames the column, this will prevent one id from overriding another.
 Checkpoint
 Create a different server call for the home page filters
 Warm up with leetcode, edabit, or similar
+
+REVIEW WEEK
+TINYINT can be used for boolean. The value can be either 0 (false), or 1 (true). Bool is changed to tinyint anyway. 
+
+Interface basically says whatever model uses this interface requires what is on the interface. Interface does not give those properties, inheritance does. 
+Inheritance is singular but can be combined with interface, Interface can have multiple.
+Inheritance is done by extending a class. Interface is it's own class.
+Interface should be limited to the things absolutely necessary, like if you had a purchaseable interface, color is not required to purchase but price is.
+
+To make tinyInt nullable, add elvis operator in the model. Reference Habits model in MyResolutions app.
