@@ -37,3 +37,6 @@ Inheritance is done by extending a class. Interface is it's own class.
 Interface should be limited to the things absolutely necessary, like if you had a purchaseable interface, color is not required to purchase but price is.
 
 To make tinyInt nullable, add elvis operator in the model. Reference Habits model in MyResolutions app.
+[MinLength] can be used in the model as well, it would go above the property.
+
+Split on splits on id, so join order matters
