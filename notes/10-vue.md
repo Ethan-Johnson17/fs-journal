@@ -43,3 +43,11 @@ gregslist has edit account
 art terminal has search
 
 offcanvas has props, its the child. It's inserted into the page, where it's given a title through that props. 
+
+REVIEW WEEK
+When opening a single thing on the page, like a modal, use active in the appstate rather than passing props. Either work, but it's quicker and easier.
+Use a function to set active rather than a getMounted, nothing is changing. reference GoodEats.
+
+Final
+Code during the weekend! Time box, formulate questions and don't bring the laptop to the TA. 
+Look at COUNT, similar to AVERAGE used in Good Eats. Also reference for the modal. Consider auth settled for vault page to home page requirement. This prevents users from typing vault number into URL. 

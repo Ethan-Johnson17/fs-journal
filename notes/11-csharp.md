@@ -39,4 +39,13 @@ Interface should be limited to the things absolutely necessary, like if you had 
 To make tinyInt nullable, add elvis operator in the model. Reference Habits model in MyResolutions app.
 [MinLength] can be used in the model as well, it would go above the property.
 
-Split on splits on id, so join order matters
+Split on splits on id, so join order matters.
+
+DTO creates a model that contains other models.
+GroupMemberView model extends the group model, so it contains the GroupMemberId and all group properties.
+
+On front end, if you want to do something as soon as user is authenticated, put it in authservice. Reference Mick's GroupMe.
+For class binding examples, also see GroupMe.
+
+If you do an interface with a <t> type, use the int or string when extended it. -> class : interface<int>
+Text cannot have a default value, must use varchar. reference GoodEats.
